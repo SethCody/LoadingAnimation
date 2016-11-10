@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F03A20E1D190735008DB242 /* RectangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F03A20D1D190735008DB242 /* RectangleLayer.m */; };
+		8F03A2111D191231008DB242 /* WaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F03A2101D191231008DB242 /* WaveLayer.m */; };
 		8FD2407B1D17C7F9001075EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2407A1D17C7F9001075EF /* main.m */; };
 		8FD2407E1D17C7F9001075EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2407D1D17C7F9001075EF /* AppDelegate.m */; };
 		8FD240811D17C7F9001075EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD240801D17C7F9001075EF /* ViewController.m */; };
 		8FD240841D17C7F9001075EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD240821D17C7F9001075EF /* Main.storyboard */; };
 		8FD240861D17C7F9001075EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FD240851D17C7F9001075EF /* Assets.xcassets */; };
 		8FD240891D17C7F9001075EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD240871D17C7F9001075EF /* LaunchScreen.storyboard */; };
+		8FD2409A1D17C89B001075EF /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD240991D17C89B001075EF /* CircleLayer.m */; };
+		8FD2409D1D17C8BB001075EF /* SYLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2409C1D17C8BB001075EF /* SYLoadingView.m */; };
+		8FD240A01D17DE0F001075EF /* TriangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2409F1D17DE0F001075EF /* TriangleLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F03A20C1D190735008DB242 /* RectangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RectangleLayer.h; path = SYLoadingAnimation/SYLayer/RectangleLayer.h; sourceTree = "<group>"; };
+		8F03A20D1D190735008DB242 /* RectangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RectangleLayer.m; path = SYLoadingAnimation/SYLayer/RectangleLayer.m; sourceTree = "<group>"; };
+		8F03A20F1D191231008DB242 /* WaveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaveLayer.h; path = SYLoadingAnimation/SYLayer/WaveLayer.h; sourceTree = "<group>"; };
+		8F03A2101D191231008DB242 /* WaveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaveLayer.m; path = SYLoadingAnimation/SYLayer/WaveLayer.m; sourceTree = "<group>"; };
+		8F1C65981D1B790E00E923AC /* SYLoadingSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYLoadingSetting.h; path = SYLoadingAnimation/SYLoadingSetting.h; sourceTree = "<group>"; };
 		8FD240761D17C7F9001075EF /* LoadingAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD2407A1D17C7F9001075EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FD2407C1D17C7F9001075EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,12 @@
 		8FD240851D17C7F9001075EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FD240881D17C7F9001075EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FD2408A1D17C7F9001075EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD240981D17C89B001075EF /* CircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircleLayer.h; path = SYLoadingAnimation/SYLayer/CircleLayer.h; sourceTree = "<group>"; };
+		8FD240991D17C89B001075EF /* CircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircleLayer.m; path = SYLoadingAnimation/SYLayer/CircleLayer.m; sourceTree = "<group>"; };
+		8FD2409B1D17C8BB001075EF /* SYLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYLoadingView.h; path = SYLoadingAnimation/SYLoadingView.h; sourceTree = "<group>"; };
+		8FD2409C1D17C8BB001075EF /* SYLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SYLoadingView.m; path = SYLoadingAnimation/SYLoadingView.m; sourceTree = "<group>"; };
+		8FD2409E1D17DE0F001075EF /* TriangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TriangleLayer.h; path = SYLoadingAnimation/SYLayer/TriangleLayer.h; sourceTree = "<group>"; };
+		8FD2409F1D17DE0F001075EF /* TriangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TriangleLayer.m; path = SYLoadingAnimation/SYLayer/TriangleLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +58,7 @@
 		8FD2406D1D17C7F9001075EF = {
 			isa = PBXGroup;
 			children = (
+				8FD240901D17C801001075EF /* SYLoadingAnimation */,
 				8FD240781D17C7F9001075EF /* LoadingAnimationDemo */,
 				8FD240771D17C7F9001075EF /* Products */,
 			);
@@ -79,6 +96,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8FD240901D17C801001075EF /* SYLoadingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2409B1D17C8BB001075EF /* SYLoadingView.h */,
+				8FD2409C1D17C8BB001075EF /* SYLoadingView.m */,
+				8FD240971D17C88F001075EF /* SYLayer */,
+			);
+			name = SYLoadingAnimation;
+			sourceTree = "<group>";
+		};
+		8FD240971D17C88F001075EF /* SYLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C65981D1B790E00E923AC /* SYLoadingSetting.h */,
+				8FD240981D17C89B001075EF /* CircleLayer.h */,
+				8FD240991D17C89B001075EF /* CircleLayer.m */,
+				8FD2409E1D17DE0F001075EF /* TriangleLayer.h */,
+				8FD2409F1D17DE0F001075EF /* TriangleLayer.m */,
+				8F03A20C1D190735008DB242 /* RectangleLayer.h */,
+				8F03A20D1D190735008DB242 /* RectangleLayer.m */,
+				8F03A20F1D191231008DB242 /* WaveLayer.h */,
+				8F03A2101D191231008DB242 /* WaveLayer.m */,
+			);
+			name = SYLayer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,6 +153,7 @@
 				TargetAttributes = {
 					8FD240751D17C7F9001075EF = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 282CWJE4VT;
 					};
 				};
 			};
@@ -149,9 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F03A20E1D190735008DB242 /* RectangleLayer.m in Sources */,
 				8FD240811D17C7F9001075EF /* ViewController.m in Sources */,
+				8FD2409D1D17C8BB001075EF /* SYLoadingView.m in Sources */,
 				8FD2407E1D17C7F9001075EF /* AppDelegate.m in Sources */,
 				8FD2407B1D17C7F9001075EF /* main.m in Sources */,
+				8FD2409A1D17C89B001075EF /* CircleLayer.m in Sources */,
+				8F03A2111D191231008DB242 /* WaveLayer.m in Sources */,
+				8FD240A01D17DE0F001075EF /* TriangleLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 282CWJE4VT;
 				INFOPLIST_FILE = LoadingAnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yxq.LoadingAnimationDemo;
@@ -274,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 282CWJE4VT;
 				INFOPLIST_FILE = LoadingAnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yxq.LoadingAnimationDemo;
@@ -300,6 +351,7 @@
 				8FD2408F1D17C7F9001075EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

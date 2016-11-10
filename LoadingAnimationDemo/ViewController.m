@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    SYLoadingView *loading = [[SYLoadingView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:loading];
 }
 
 - (void)didReceiveMemoryWarning {

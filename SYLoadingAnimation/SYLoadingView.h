@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SYLoadingView.h
 //  LoadingAnimationDemo
 //
 //  Created by SethYin on 16/6/20.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SYLoadingView.h"
 
-@interface ViewController : UIViewController
-
+@interface SYLoadingView : UIView
 
 @end
-
